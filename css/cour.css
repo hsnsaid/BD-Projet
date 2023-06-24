@@ -1,0 +1,100 @@
+main{
+  width:100%;
+  height: 100%;
+  margin-top: 2%;
+  }
+  section{
+    display: grid;
+  }
+  section p{
+    background-color: #385283;
+    color: #ffffff;
+    padding: 0.98rem 8rem;
+    justify-self: center;
+    align-self: center;
+    margin-left: 0%;
+    border-radius:8px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    box-shadow: rgba(46, 62, 90, 0.805) 0px 3px 6px, rgba(16, 27, 45, 0.805) 0px 2px 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .main_courses{
+    display: grid;
+    grid-template-columns: repeat(3, 0.7fr);
+    gap: 3rem;
+    margin-top: 7%;
+    justify-items: center;
+  }
+  .main_courses section a{
+    text-decoration: none;
+  }
+  .courses{
+    width: 17rem;
+    height: 8rem;
+    background-color: #b7c9e9;
+    cursor: pointer;
+    position: relative;
+    top: 10%;
+    border-radius: 14px;
+    color: #000000;
+    box-shadow: rgba(142, 153, 172, 0.439) 0px 3px 6px, rgba(0, 0, 1, 0.536) 0px 3px 6px;
+  }
+  .courses:hover{
+    transform: scale(1.15);
+  }
+  .courses span{
+    display: block;
+    text-align: center;
+    margin-top: 2%;
+    text-decoration: none;
+  }
+.courses img{
+  width: 100%;
+  height: 75.688px;
+  border-radius: 14px 14px 0 0 ;
+}
+@media (max-width: 912px) {
+  .main_courses{
+    grid-template-columns: repeat(2, 0.7fr);
+  }
+}
+@media (max-width: 800px) {
+  .main_courses{
+    grid-template-columns: repeat(2, 0.7fr);
+    gap: 2.4rem;
+  }
+}
+@media (max-width: 600px) {
+  .main_courses{
+    grid-template-columns: repeat(2, 0.7fr);
+    gap: 1.6rem;
+  }
+  .courses{
+    width: 16rem;
+    height: 8rem;
+    background-color: #b7c9e9;
+    cursor: pointer;
+    position: relative;
+    top: 10%;
+    border-radius: 14px;
+    color: #000000;
+    box-shadow: rgba(142, 153, 172, 0.439) 0px 3px 6px, rgba(0, 0, 1, 0.536) 0px 3px 6px;
+  }
+  .courses:hover{
+    transform: scale(1.05);
+  }
+}
+@media (max-width: 540px) {
+  .main_courses{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2.5rem;
+  }
+  .courses{
+    width: 19rem;
+  }
+  .courses:hover{
+    transform: scale(1.05);
+  }
+}

@@ -1,0 +1,121 @@
+main{
+  width:100%;
+  position: absolute;
+  top: 14%;
+}
+section{
+  display: grid;
+}
+section p{
+  background-color: #385283;
+  color: #ffffff;
+  width: min-content;
+  padding: 0.98rem 8rem;
+  justify-self: center;
+  align-self: center;
+  margin-left: 0%;
+  margin-bottom: 4%;
+  border-radius:8px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  box-shadow: rgba(46, 62, 90, 0.805) 0px 3px 6px, rgba(16, 27, 45, 0.805) 0px 2px 3px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main_courses{
+  margin: 2.5% 10px 0 10px;
+}
+table {
+  border-radius:20px;
+  border-collapse: collapse;
+  margin: auto;
+  max-width: 97%;
+  background-color: transparent;
+  padding:5px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.253);
+  animation: float 5s infinite;
+}
+tbody{
+  border-radius: 20px 0px 0px 0px;
+}
+tbody td{
+  background-color: #a3bae6;
+}
+tbody tr:last-child td:first-child{
+  border-radius: 0px 0px 0px 20px;
+}
+tbody tr:last-child td:last-child{
+  border-radius: 0px 0px 20px 0px;
+}
+thead{
+  background:#385283;
+}
+th {
+  color:#ffffff;
+  border-right: 0.5px solid rgb(153, 150, 150);
+  font-size:28px;
+  font-weight: 100;
+  padding:24px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  vertical-align:middle;
+}
+th:first-child{
+  border-radius: 20px 0px 0px 0px;
+}
+th:last-child{
+  border-radius: 0px 20px 0px 0px;
+  border: none;
+}
+tr {
+  border-top: 1px solid #C1C3D1;
+  border-bottom: 1px solid #C1C3D1;
+  color:#000000;
+  font-size:16px;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+tr:hover td{
+  background:#436ab3;
+  color:#FFFFFF;
+}
+tr:hover td a i{
+  color:#FFFFFF;
+}
+td {
+  background:#FFFFFF;
+  padding:20px;
+  text-align:left;
+  vertical-align:middle;
+  border-right: 0.5px solid rgb(153, 150, 150);
+  font-weight:300;
+  font-size:18px;
+}
+td:last-child{
+  border: none;
+}
+td a i {
+  cursor: pointer;
+  color: #000000;
+}
+td a i {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+td.center{
+  text-align: center;
+}
+td.right{
+  text-align: center;
+}
+th.left {
+  text-align: left;
+  width: 60%;
+}
+th.center {
+  text-align: center;
+  width: 30%;
+}
+th.right {
+  text-align: right;
+  width: 10%;
+}

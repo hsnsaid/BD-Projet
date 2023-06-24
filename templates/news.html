@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/nav2.css">
+    <link rel="stylesheet" href="../css/profile.css">
+    <link rel="stylesheet" href="../css/big_profile.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css'>
+    <link rel="stylesheet" href="../css/news.css">
+    <script src="../front_script/dis_profile.js" defer></script>
+    <script src="../front_script/news.js" defer></script>
+    <script src="../front_script/profile_value.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- start navbar -->
+    <header>
+      <div class="header-title">
+        <h2>INFO ACADEMY</h2>
+      </div>
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+    
+        <ul class="menu__box">
+          <li><img id="profile" src="../image/student.png" alt="" title="Profile"></li>
+          <li><a class="menu__item" href="general.html" autofocus> Home</a></li>
+          <li><a class="menu__item" href="news.html">News</a></li>
+          <li><a class="menu__item" href="contact.html">Contact</a></li>
+          <li><a class="menu__item" href="../back_script/logout.php">Logout</a></li>
+        </ul>
+        <div class="header-title">
+          <h2>INFO ACADEMY</h2>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li class="j"><a class="e" href="general.html" > Home</a></li>
+          <li class="j"><a class="e" href="news.html" autofocus>News</a></li>
+          <li class="j"><a class="e" href="contact.html">Contact</a></li>
+          <li><img id="img" src="../image/student.png" title="Profile"></li>
+        </ul>
+      </nav>
+    </header>
+<!-- end navbar  -->
+<!-- start profile -->
+      <div class="main_profile">
+        <div class="hidden1">
+          <span class="close-icon"></span>
+        </div>
+        <img src="../image/student.png" alt="">
+        <div class="name"></div>
+        <div class="main_button">
+          <button id="profile1">Profile</button>
+          <button><a href="../back_script/logout.php">Logout</a></button>
+        </div>
+      </div>
+<!-- end profile -->
+<!-- start news -->
+      <main class="main_news">
+        <!-- <section class="news">
+            <div class="news_header">
+                <div class="header_left">
+                    <a href="#">
+                        <img src="../image/admin.png" class="news_photo">
+                    </a>
+                    <div class="news_admin">
+                        <span class="admin_name">Kralil Moussaab</span>
+                    </div>
+                    <span class="news__date">07/Mars/2023</span>
+                </div>
+            </div>
+            <div class="news_content">
+                <p class="Content_paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi similique sunt pariatur aut necessitatibus odio esse quidem sit illo dignissimos expedita quas inventore consequuntur nobis, animi libero iure ullam ea!</p>
+            </div>
+        </section> -->
+      </main>
+<!-- end news -->
+<!-- start big profile -->
+      <div class="body"></div>
+      <div class="main__profile">
+        <section class="section">
+            <h1 >Profile</h1>
+            <div class="hide hidden">
+                <span class="close-icon1"></span>
+            </div>
+            <div class="main">
+            </div>
+        </section>
+    </div>
+    <!-- end big profile -->
+</body>
+</html>

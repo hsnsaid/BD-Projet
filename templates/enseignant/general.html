@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/nav2.css">
+    <link rel="stylesheet" href="../../css/enseignant/profile.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/module.css">
+    <link rel="stylesheet" href="../../css/enseignant/add_ressource.css">
+    <script src="../../front_script/enseignant/module.js" defer></script>
+    <script src="../../front_script/enseignant/dis_profile.js" defer></script>
+    <script src="../../front_script/enseignant/add_ressource.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-title">
+          <h2>INFO ACADEMY</h2>
+        </div>
+        <div class="hamburger-menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+          <ul class="menu__box">
+            <li><a class="menu__item" href="general.html" autofocus> Home</a></li>
+            <li><a class="menu__item" href="../../back_script/logout.php">Logout</a></li>
+          </ul>
+          <div class="header-title">
+            <h2>INFO ACADEMY</h2>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li class="j"><a class="e" href="general.html" autofocus> Home</a></li>
+            <li><img id="img" src="../../image/proffe.png" title="Profile"></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="main_profile">
+        <div class="hidden1">
+          <span class="close-icon"></span>
+        </div>
+        <img src="../../image/proffe.png" alt="">
+        <div class="name"></div>
+        <div class="main_button">
+          <span><a href="../../back_script/logout.php">Logout</a></span>
+        </div>
+      </div>
+
+      <main>
+        <section >
+          <p>Module</p>
+          <button id="add_ressource">
+            <i class="material-icons" >&#xe145;</i>
+            <span>ADD RESSOURCE</span> 
+          </button>
+          <div class="main_courses">
+            <!-- <a href="cour.html"><div class="courses"><img src="../../image/enseignant_module.png" alt=""><span>L3_ISIL</span><span>PAW</span></div></a>
+            <a href="cour.html"><div class="courses"><img src="../../image/enseignant_module.png" alt=""><span>L2</span><span>ALGO</span></div></a>
+            <a href="cour.html"><div class="courses"><img src="../../image/enseignant_module.png" alt=""><span>L3_SI</span><span>PL</span></div></a>
+            <a href="cour.html"><div class="courses"><img src="../../image/enseignant_module.png" alt=""><span>M1_WIC</span><span>COMPILASTION</span></div></a>
+            <a href="cour.html"><div class="courses"><img src="../../image/enseignant_module.png" alt=""><span>M2_RSSI</span><span>WS</span></div></a> -->
+          </div>
+          <div class="login">
+            <div class="hide hidden">
+              <span class="close-icon-"></span>
+            </div>
+              <form action="" method="post" class="form">
+                <div class="user user1">
+                  <input type="text" name="name" required >
+                  <label>Name OF Ressource</label>
+                </div>
+                <div class="user">
+                  <label class="level">Modul Name</label>
+                  <select name="modul" id="select">
+                  </select>
+                </div>
+                <div class="user">
+                  <label class="level">Type OF Ressource</label>
+                  <select name="type" id="select">
+                    <option value="COUR">COUR</option>
+                    <option value="TD">TD</option>
+                    <option value="TP">TP</option>
+                  </select>
+                </div>
+                <div class="user">
+                  <label class="level">Ressource</label>
+                  <input type="file" name="file" id="file" required >
+                </div>
+                <input class="submit" type="submit" name="submit" value="ADD">
+              </form>
+              </div>
+        </section>
+      </main>
+
+      <div class="body-"></div>
+      <div class="successfull">
+        <h2 class="message">Ressource has been added</h2>
+      </div>
+      <!-- <div class="main-profile">
+        <section class="section">
+          <div class="hide hidden">
+              <span class="close-icon-"></span>
+          </div>
+          <div class="main">
+            <h1>ADD RESSOURCE</h1>
+            <form class="photo__position" method="post" action="../../back_script/enseignant_ressource_add.php"  enctype="multipart/form-data">
+              <h3>Name OF Ressource</h3>
+              <input type="text" name="name" id="">
+              <h3>Modul</h3>
+              <select name="modul" id="select">
+              </select>
+              <h3>Type OF Ressource</h3>
+              <select name="type" id="select">
+                <option value="COUR">COUR</option>
+                <option value="TD">TD</option>
+                <option value="TP">TP</option>
+              </select>
+              <h3>Ressource</h3>
+              <input type="file" name="file" id="file">
+              <input class="submit" type="submit"  value="ADD">
+            </form>
+          </div>
+        </section>
+      </div> -->
+      <section>
+        
+      </section>
+</body>
+</html>

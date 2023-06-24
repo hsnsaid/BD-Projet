@@ -1,0 +1,115 @@
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-family: "Segoe UI",Helvetica,Arial, Helvetica, sans-serif;
+    margin-top: 5.5%;
+    gap: 2rem;
+  }
+  .contact {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    height:8rem;
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+    border-radius:8px ;
+    width: 19.5rem;
+   }
+  .image {
+    background: #EEE url('../image/proffe.png') center center;
+    background-size: cover;
+    box-shadow: rgba(46, 62, 90, 0.805) 0px 3px 6px, rgba(16, 27, 45, 0.805) 0px 3px 6px;
+    border-radius: 50%;
+    display: inline-block;
+    height: 85px;
+    width: 85px;
+    margin: 0;
+    margin-top: 6%;
+   }
+   
+  .main_details {
+    background:#a6bac3;
+    color: rgb(0, 0, 0);
+    float: right;
+    height: 100%;
+    display: block;
+    border-radius:4px ;
+    width: 68%;
+    margin-left: -10px;
+   }
+
+   .main_details .details{
+    margin-top: 8%;
+    margin-left: 4%;
+    width: 100%;
+   }
+   .main_details .details span{
+    margin-left: 3%;
+   }
+   @media (max-width: 1060px) {
+    .contact {
+      background-color: rgb(255, 255, 255);
+      box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+      font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+      height:8rem;
+      justify-self: center;
+      align-self: center;
+      padding: 9px;
+      border-radius:8px ;
+      width: 18rem;
+     }
+  }
+  @media (max-width: 981px) {
+    main{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      font-family: "Segoe UI",Helvetica,Arial, Helvetica, sans-serif;
+      margin-top: 5.5%;
+      gap: 2rem;
+    }
+    .contact {
+      background-color: rgb(255, 255, 255);
+      box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+      font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+      height:8rem;
+      justify-self: center;
+      align-self: center;
+      padding: 9px;
+      border-radius:8px ;
+      width: 18rem;
+     }
+  }
+  @media (max-width: 643px) {
+    main{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      font-family: "Segoe UI",Helvetica,Arial, Helvetica, sans-serif;
+      margin-top: 5.5%;
+      gap: 2rem;
+    }
+    .contact {
+      background-color: rgb(255, 255, 255);
+      box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+      font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+      height:8rem;
+      justify-self: center;
+      align-self: center;
+      padding: 9px;
+      border-radius:8px ;
+      width: 20rem;
+     }
+  }
+  @media (max-width: 340px) {
+    .contact {
+      background-color: rgb(255, 255, 255);
+      box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+      font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+      height:8rem;
+      justify-self: center;
+      align-self: center;
+      padding: 9px;
+      border-radius:8px ;
+      width: 18rem;
+     }
+  }

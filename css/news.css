@@ -1,0 +1,45 @@
+.main_news{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2.5rem;
+    padding: 2rem;
+    font-family: "Segoe UI",Helvetica,Arial, Helvetica, sans-serif;
+}
+.news{
+    justify-self: center;
+    align-self: center;
+    background-color: white;
+    width: 100%;
+    max-width: 50rem;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    box-shadow:  0 1.6px 3.2px gray;
+}
+.news_header{
+    display: flex;
+    justify-content: space-between;
+    padding:  1.2rem 1.6rem 0 1.6rem;
+}
+.header_left{
+    flex: 1;
+}
+.admin_name{
+    margin-right: 0.2rem;
+}
+.news_photo{
+    float: left;
+    border-radius: 50%;
+    border: 1px rgb(237, 237, 237) solid;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-right: 0.8rem;
+    box-shadow:  0 1.6px 3.2px gray;
+}
+.news_admin{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.Content_paragraph{
+    font-size: 1.5rem;
+    padding: 0.8rem 1.6rem;
+}

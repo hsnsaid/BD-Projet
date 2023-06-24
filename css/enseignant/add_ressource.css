@@ -1,0 +1,402 @@
+button {
+  margin: 2% 0;
+  justify-self: center;
+  align-self: center;
+  width: max-content;
+  border: none;
+  background-color: #385283;
+  border-radius: 0.9em;
+  padding: 0.8em 1.2em 0.8em 1em;
+  transition:  1s;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  display: flex;
+}
+
+button i{
+  margin-right: 5px;
+}
+button span{
+  margin-top: 2%;
+}
+button:hover {
+  background-color: #6f8dc4;
+}
+.body- {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  opacity: 0.85;
+  background-color: rgba(255, 255, 255, 0.415);
+}
+/*
+.main-profile{
+  display: flex;
+  width: 27rem;
+  height: 31.5rem;
+  background-color: #204266;
+  border-radius: 8px;
+  margin: auto ;
+  color: #fff;
+  z-index: 10;
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  display: none ;
+  -webkit-animation: main__profile 0.5s both;
+  -moz-animation: main__profile 0.5s both;
+  -o-animation: main__profile 0.5s both;
+  animation: main__profile 0.5s both;
+}
+@keyframes main__profile{
+  0%{
+  opacity: 0;
+    transform: translateY(-200px);
+}
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+}
+}input{
+  border: none;
+  border-radius: 4px;
+  border: 1px solid #ccc7c7;
+  padding: 0.438rem 0rem;
+  width: 73%;
+  margin-left: 1.25rem;
+  padding-left: 0.938rem;
+  height: 29px;
+  background-color: #c2d3db;
+} 
+select{
+  margin-left: 1.25rem;
+  display: block;
+  width: 77%;
+  background-color: #c2d3db;
+  padding: 0.8rem 0rem;
+  border-radius: 4px;
+  padding-left: 0.938rem;
+  border: 1px solid #ccc7c7;
+}
+.photo__position{
+  margin-left: 1.7rem;
+  width: 100%;
+}
+.main h1{
+  margin: 10% 0 7% 28%;
+}
+.photo__position .submit {
+  position: relative;
+  display: inline-block;
+  width: 20%;
+  padding: 0.2rem 1.25rem;
+  border: #03e9f4 1px solid;
+  border-radius: 4px;
+  margin-left: 32%;
+  height: 45px;
+  color: #c8f403;
+  color: #03e9f4;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  background-color: #385283;
+  letter-spacing: 4px;
+  cursor: pointer;
+}
+.photo__position .submit:hover {
+  background-color: #c8f403;
+  background-color: #03e9f4;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  transition: 3s;
+}
+section h3{
+  margin: 0;
+  padding: 0rem 1.25rem;
+  margin-bottom: 0.375rem;
+  margin-top: 0.375rem;
+}
+.hidden .close-icon- {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 92%;
+  top: 2%;
+  background-image: url("../../image/close_icon.png");
+  background-size: cover;
+  cursor: pointer;
+}
+.main-profile #file{
+  margin-bottom: 2%;
+}
+.successfull {
+  position: fixed;
+  width: 99.8%;
+  top: 0vh;
+  background-color: #22ba5c;
+  color: #fff;
+  padding: 0.1rem;
+  z-index: 10;
+  display: none;
+  text-align: center;
+}
+.uccessfull .message {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  height: fit-content;
+}
+@media (max-width: 1098px) {
+  .main-profile{
+    left: 32%;
+  }
+}
+@media (max-width: 1000px) {
+  .main-profile{
+    left: 28%;
+  }
+}
+@media (max-width: 900px) {
+  .main-profile{
+    left: 25%;
+  }
+}
+@media (max-width: 800px) {
+  .main-profile{
+    left: 22%;
+  }
+}
+@media (max-width: 700px) {
+  .main-profile{
+    left: 19%;
+  }
+}
+@media (max-width: 600px) {
+  .main-profile{
+    left: 14%;
+  }
+}
+@media (max-width: 534px) {
+  .main-profile{
+    left: 9%;
+  }
+}
+@media (max-width: 500px) {
+  .main-profile{
+    left: 7%;
+    width: 26rem;
+  }
+}
+@media (max-width: 460px) {
+  .main-profile{
+    left: 3%;
+    width: 25.5rem;
+  }
+}
+@media (max-width: 450px) {
+  .main-profile{
+    left: 5%;
+    width: 24rem;
+  }
+  .hidden .close-icon- {
+    left: 90%;
+  }
+}
+@media (max-width: 430px) {
+  .main-profile{
+    left: 5%;
+    width: 23.5rem;
+  }
+}
+@media (max-width: 400px) {
+  .main-profile{
+    left: 3.2%;
+    width: 22.5rem;
+  }
+} */
+
+h1{
+  text-align: center;
+  margin-top: 0.5%;
+  color: #385283;
+  }
+
+  section{
+    display: grid;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 20px;
+    border-radius:5px ;
+  }
+  .login {
+    position: absolute;
+    top: 23%;
+    width: 23rem;
+    padding: 1.4rem;
+    background: #204266;
+    box-sizing: border-box;
+    box-shadow: rgba(2, 14, 34, 0.805) 0px 3px 6px, rgba(2, 14, 34, 0.805) 0px 3px 6px;
+    border-radius: 10px;
+    z-index: 15;
+    display: none;
+    justify-self: center;
+    align-self: center;
+    -webkit-animation: main__profile 0.5s both;
+    -moz-animation: main__profile 0.5s both;
+    -o-animation: main__profile 0.5s both;
+    animation: main__profile 0.5s both;
+  }
+  @keyframes main__profile{
+    0%{
+    opacity: 0;
+      transform: translateY(-200px);
+  }
+    100%{
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+  .login .user {
+    position: relative;
+    }
+  .login .user1 {
+    margin-top: 7%;
+  }
+  .login .user input {
+    width: 90%;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 1rem;
+    border: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: transparent;
+    outline: none;
+    }
+    .login .user select {
+    width: 99.5%;
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #204266;
+    color: rgb(255, 255, 255);
+    margin-bottom: 1rem;
+    border: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: transparent;
+    outline: none;
+    }
+    .login .user option {
+    background-color: #204266;
+    }
+  .login .user input:focus{
+    border-color: #03e9f4;
+    }
+  .login .user label {
+    position: absolute;
+    top:20%;
+    left: 8%;
+    padding: 0.625 0;
+    font-size: 1rem;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+    }
+    .login .user label.date {
+    top: -9%;
+    left: 8%;
+    background-color: #204266;
+    padding: 0 .3em;
+    color: #ffffff;
+    font-size: 0.85rem;
+    }
+    .login .user label.level {
+    top: -9%;
+    left: 8%;
+    background-color: #204266;
+    padding: 0 .3em;
+    color: #ffffff;
+    font-size: 0.85rem;
+    }
+    .login .user input:focus ~ label.date,
+    .login .user input:valid ~ label.date  {
+    color: #03e9f4;
+    }
+    .login .user option:focus ~ label.level,
+    .login .user option:valid ~ label.level  {
+    color: #03e9f4;
+    }
+  .login .user input:focus ~ label,
+  .login .user input:valid ~ label {
+    top: -9%;
+    left: 8%;
+    background-color: #204266;
+    padding: 0 .3em;
+    color: #c8f403;
+    color: #03e9f4;
+    font-size: 0.85rem;
+    }
+  .login form .submit {
+    position: relative;
+    display: inline-block;
+    left: 32%;
+    padding: 0.625rem 1.25rem;
+    border: #03e9f4 1px solid;
+    border-radius: 4px;
+    color: #c8f403;
+    color: #03e9f4;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    background-color: #385283;
+    letter-spacing: 4px;
+    cursor: pointer;
+    }
+  .login .submit:hover {
+    background-color: #c8f403;
+    background-color: #03e9f4;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    transition: 3s;
+    }
+    .successfull {
+      position: fixed;
+      width: 99.8%;
+      top: 0vh;
+      background-color: #22ba5c;
+      color: #fff;
+      padding: 0.1rem;
+      z-index: 10;
+      display: none;
+      text-align: center;
+    }
+    .uccessfull .message {
+      padding: 0.5rem;
+      font-size: 1.2rem;
+      height: fit-content;
+    }
+    .hidden .close-icon- {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      left: 90%;
+      top: 2%;
+      background-image: url("../../image/close_icon.png");
+      background-size: cover;
+      cursor: pointer;
+    }
+    @media (max-width: 1000px) {
+      .login{
+        top: 15%;
+      }
+    }
+    @media (max-width: 520px) {
+      .login{
+        top: 10%;
+      }
+    }
+    @media (max-width: 384px) {
+      .login{
+width: 22rem;      }
+    }
